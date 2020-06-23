@@ -6,7 +6,7 @@ _The impossible dream_
 
 ## Our main goals:
 * Analysis power-efficiency, high-bandwidth memory traffic, low cache coherency traffic (mostly Electrical Engineering/Digital Circuit depended things).
-* Analysis IEEE articles for implementation.
+* Review IEEE articles/Patents for implementation.
 * Researching about Fabrication process (Silicon IC).
 * Implement L1/L2 (Instruction/Data) cache, TLB/ITLB.
 * Implement Branch predictor/RAS.
