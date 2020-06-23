@@ -23,4 +23,4 @@ _The impossible dream_
 * 731,000,000 transistors
 * 45 nm process
 * 4 cores
-<img src="https://raw.githubusercontent.com/eminghuliev/buta/master/assets/1050px-nehalem_die_shot.png?token=ADK475NIZDKUOOMGHSTULT266JFBA" alt="Bloomfield" style="max-width:100%;" width="600" height="350">
+<img src="assets/1050px-nehalem_die_shot.png" alt="Bloomfield" style="max-width:100%;" width="600" height="350">
