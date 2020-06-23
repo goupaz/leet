@@ -11,7 +11,7 @@ _The impossible dream_
 * Implement L1/L2 (Instruction/Data) cache, TLB/ITLB.
 * Implement Branch predictor/RAS.
 * Implement Pipelining and Superscalar execution (OoO).
-* Implement ALU/FPU.
+* Implement ALU/FPU/AGU/Execution unit.
 
 ## SoC
 * SPI
