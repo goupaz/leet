@@ -4,10 +4,23 @@ We are developing this CPU to implement cutting-edge _microarchitectural_ compon
 
 _The impossible dream_
 
-Our main goals:
-### Analysis power-efficiency, high-bandwidth memory traffic, low cache coherency traffic (mostly Electrical Engineering things).
-### Analysis IEEE articles to implementation.
-### Implement L1/L2 cache
-### Implement Branch predictor
-### Implement Pipelining and Superscalar execution (OoO)
-### Implement ALU/FPU
+## Our main goals:
+* Analysis power-efficiency, high-bandwidth memory traffic, low cache coherency traffic (mostly Electrical Engineering/Digital Circuit depended things).
+* Analysis IEEE articles for implementation.
+* Researching about Fabrication process (Silicon IC).
+* Implement L1/L2 (Instruction/Data) cache, TLB/ITLB.
+* Implement Branch predictor/RAS.
+* Implement Pipelining and Superscalar execution (OoO).
+* Implement ALU/FPU.
+
+## SoC
+* SPI
+* UART
+
+## This is motivation for us.
+#### Intel Bloomfield microprocessor
+* 263 mm²
+* 731,000,000 transistors
+* 45 nm process
+* 4 cores
+<img src="https://raw.githubusercontent.com/eminghuliev/buta/master/assets/1050px-nehalem_die_shot.png?token=ADK475NIZDKUOOMGHSTULT266JFBA" alt="Bloomfield" style="max-width:100%;" width="600" height="350">
