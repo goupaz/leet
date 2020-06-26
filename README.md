@@ -1,4 +1,4 @@
-_XXX_ CPU is the first Microprocessor Of Azerbaijan which is developed by Goup.
+Leet (1337/eleet) CPU is the first Microprocessor Of Azerbaijan which is developed by Goup.
 
 We are developing this CPU to implement cutting-edge _microarchitectural_ components/techniques (Branch Prediction, RAS, Pipelining, OoO Superscalar execution, Low-Power Techniques, Multi-Threading/SMT).
 
