@@ -1,7 +1,7 @@
 ## Parallelism at Multi-Processor level
-_Note: IC dizaynı zamanı hər bir komponentin əlavəsi zamanı transistorun ölçüsü power-efficient olmasıda nəzərə alınır_
+_Note: IC dizaynında hər bir komponentin əlavəsi zamanı, transistorun sayının artımı və power-efficiency nəzərə alınır_
 
-Bəzi mənbələrdə _SpaceX_ tərəfindən bildirilir ki kosmosa göndərilən roketlərdə fault-tolerance/redundancy məqsədi ilə (yəni CPU-ları *radiation-hardened* etmək üçün) *Dual modular redundancy* mexanizmini istifadə edirlər. Əslində cihazlar özləri *radion-hardened*-dir ancaq bunu tam təmin etmək bahalı olduğuna görə onlar fərqli metod istifadə edirlər ki cihazlarda iyonlaşdırıcı radiasiyadan və kosmik işığların təsirindən hesablamaların dəyərlərində hər hansı bir problem olduğu zaman bunu fix/detect edə bilsinlər. Məntiq isə bundan ibarətdir ki prosessorlar _independent_ yəni parallel olaraq öz core(ları) üzərində hesablamaları edəcəklər və daha sonra _voting_ sistemi bunların hansında uyğunsuzluq olduğunu detect edəcək.
+Bəzi mənbələrdə bildirilir ki SpaceX tərəfindən kosmosa göndərilən roketlərdə fault-tolerance/redundancy məqsədi ilə (yəni CPU-ları *radiation-hardened* etmək üçün) *Dual modular redundancy* mexanizmini istifadə edirlər. Əslində cihazlar özləri *radion-hardened*-dir, ancaq bunu tam təmin etmək bahalı olduğuna görə onlar fərqli metod istifadə edirlər ki, cihazlarda iyonlaşdırıcı radiasiyadan və kosmik işıqların təsirindən hesablamaların dəyərlərində hər hansı bir problem olduğu zaman bunu fix/detect edə bilsinlər. Məntiq isə bundan ibarətdir ki, prosessorlar _independent_, yəni parallel olaraq öz core(ları) üzərində hesablamaları edəcəklər və daha sonra _voting_ sistemi bunların arasında hər hansı bir uyğunsuzluq olub olmadığını aşkar ediləcəkdir.
 
 e.g formaya baxaq
 ```
@@ -34,11 +34,11 @@ Bu halda 4 unit halında F/4 göstərilir. Yəni hesablama paralel olaraq bütü
 ```
 _Dynamic power consumption logic gate-lərin (transistorların) activity səbəbindən yaranır_
 
-CPU tərəfindən dynamic power consumption - CPU tezliyinə və həmçinin CPU voltajına mütənasibdir.
+CPU tərəfindən dynamic power consumption - CPU tezliyinə və həmçinin CPU voltajına düz mütənasibdir.
 
 <img src="https://render.githubusercontent.com/render/math?math=P_{dyn}=CV^{2}f&mode=inline">
 
-Burada digər bir məsələ isə aşağıda qeyd etdiyim dynamic və short-circuit clock frequency depended hesab edilir. Yəni biz tezliyi azaltdığca power consumption özüdə azalmağa başlayır (dediyim kimi mütənasibdir). Bu səbəbdən buda SpaceX üçün power efficiency sayıla bilər ancaq voting sistemi + Interconnection üçün NoC (network on chip) və yaxud CPU-lar arasında (e.g die-to-die) hansı texnologiya istifadə edilirsə burada da yəgin ki əlavə power consumption var. Həmçinin bottleneck yaranmaması üçün high-bandwidth+frequency lazım ola bilər böyük dataların qısa müddətdə transfer edilə bilməsi üçün.
+Burada digər bir məsələ isə aşağıda qeyd etdiyim dynamic və short-circuit clock tezlikdən (f) aslı hesab edilir. Yəni, biz tezliyi azaltdıqca power consumption özü də azalmağa başlayır (dediyim kimi düz mütənasibdir). Bu səbəbdən buda SpaceX üçün power efficiency sayıla bilər ancaq voting sistemi (Bu haqda tam fikrim yoxdur hansı mexanizmdən istifadə edirlər) + Interconnection üçün NoC (network on chip) və yaxud digər CPU-lar arası (e.g die-to-die) hansı (communication üçün) texnologiyanı istifadə edirsə burada da yəgin ki, əlavə power consumption nəzərə alıb. Həmçinin bottleneck yaranmaması üçün high-bandwidth+frequency lazım ola bilər ki, böyük datalar qısa müddətdə transfer edilə bilsin.
 
 
 ### Power Consumption
