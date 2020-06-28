@@ -37,7 +37,7 @@ CPU tərəfindən dynamic power consumption - CPU tezliyinə və həmçinin CPU 
 
 <img src="https://render.githubusercontent.com/render/math?math=P_{dyn}=CV^{2}f&mode=inline">
 
-Burada digər bir məsələ isə aşağıda qeyd etdiyim dynamic və short-circuit clock frequency depended hesab edilir. Yəni biz tezliyi azaltdığca power consumption özüdə azalmağa başlayır. Bu səbəbdən buda SpaceX üçün power efficiency sayıla bilər ancaq voting sistemi + NoC (network on chip) və yaxud CPU-lar arasında (die-to-die) hansı texnologiya istifadə edilirsə burada da yəgin ki əlavə power consumption var. Həmçinin bottleneck yaranmaması üçün high-bandwitdh lazım ola bilər böyük dataların qısa müddətdə transfer edilə bilməsi üçün.
+Burada digər bir məsələ isə aşağıda qeyd etdiyim dynamic və short-circuit clock frequency depended hesab edilir. Yəni biz tezliyi azaltdığca power consumption özüdə azalmağa başlayır. Bu səbəbdən buda SpaceX üçün power efficiency sayıla bilər ancaq voting sistemi + İnterconnection üçün NoC (network on chip) və yaxud CPU-lar arasında (e.g die-to-die) hansı texnologiya istifadə edilirsə burada da yəgin ki əlavə power consumption var. Həmçinin bottleneck yaranmaması üçün high-bandwidth lazım ola bilər böyük dataların qısa müddətdə transfer edilə bilməsi üçün.
 
 
 ### Power Consumption
