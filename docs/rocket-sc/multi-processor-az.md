@@ -47,19 +47,19 @@ _Power efficiency haqqında növbəti VLSI design dokumentasiyalarında ətrafl�
 
 CMOS integrated circuit səviyyəsində power consumption dynamic power və static power-dan yaranır. Yəni bu iki halda İC üzərində dissipation baş verir.
 <p align="center">
-<img src="https://raw.githubusercontent.com/goupaz/leet/master/assets/Screenshot_2020-06-28%20lecture14%20ppt%20-%20lecture9%20pdf.png" style="max-width:100%;" width="450" height="200">
+<img src="https://raw.githubusercontent.com/goupaz/leet/master/assets/Screenshot_2020-06-28%20lecture14%20ppt%20-%20lecture9%20pdf.png?token=ADK475KRLY37NOXVI2XJ25DBLDEMW" style="max-width:100%;" width="450" height="200">
 </p>
 
 Yuxarıdaki şəkildə görüldüyü kimi capacitor PMOS transistor vasitəsi ilə charge edildiyində voltage 0-dan Vdd dəyərinə doğru yüksəlir və power supplydan müəyyən enerji əldə edilir. Bu enerji PMOS device-da itirilir hansi ki qalan enerji capacitorda saxlanır. Həmçinin high-to-low transition zamanı capacitor discharge olunduğu zaman saxlanılan müəyyən enerji NMOS transistorundan leak olur.
 <p align="center">
 
-<img src="https://raw.githubusercontent.com/goupaz/leet/master/assets/Dissipation-in-CMOS.jpg" style="max-width:100%;" width="450" height="200">
+<img src="https://raw.githubusercontent.com/goupaz/leet/master/assets/Dissipation-in-CMOS.jpg?token=ADK475KDCVACGJG7AZGKHUDBLDENY" style="max-width:100%;" width="450" height="200">
 </p>
 Bu dissipation prosesi birçox halda Switching power (in capacitance) və Short-circuit (through transistor) adlandırılır. Aşağıdaki şəkildə hər iki hal göstərilib.
 <p align="center">
-<img src="https://raw.githubusercontent.com/goupaz/leet/master/assets/Screenshot_2020-06-28%20Power%20Consumption%20-%20Semiconductor%20Engineering(2).png" style="max-width:100%;" width="500" height="100">
+<img src="https://raw.githubusercontent.com/goupaz/leet/master/assets/Screenshot_2020-06-28%20Power%20Consumption%20-%20Semiconductor%20Engineering(2).png?token=ADK475P7NDXYRC4JDF7LWILBLDEPU" style="max-width:100%;" width="500" height="100">
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/goupaz/leet/master/assets/Screenshot_2020-06-28%20Power%20Consumption%20-%20Semiconductor%20Engineering(1).png" style="max-width:100%;" width="500" height="100">
+<img src="https://raw.githubusercontent.com/goupaz/leet/master/assets/Screenshot_2020-06-28%20Power%20Consumption%20-%20Semiconductor%20Engineering(1).png?token=ADK475ORLID5TQZ625WAAQTBLDEO6" style="max-width:100%;" width="500" height="100">
 </p>
